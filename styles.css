@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20 px 0px;
+}
+
+.navbar ul li {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1 rem;
+  font-weight: bold;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
