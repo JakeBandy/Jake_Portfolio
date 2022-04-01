@@ -5,17 +5,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jakes Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <nav class="navbar">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Gallery</a></li>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="Resume.html">Resume</a></li>
+      <li><a href="#Portfolio">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+      
     </ul>
   </nav>
+
+  <section id="Home">
+    <div class="home">
+      <h1 class="headings">What's Up Im Jake <br> Fullstack Web Developer</h1>
+      <button class="btn">Hire Me</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <div id="intro">
+      <h1 class="headings">About Me</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ullam ad! Quaerat optio omnis consectetur eos deserunt, obcaecati, illo quidem nemo incidunt accusamus, quos error voluptas voluptate veniam quo corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia perferendis dolores consectetur eum quidem, laudantium inventore! Reprehenderit id suscipit velit? Dicta dolore, labore corrupti in quaerat minus distinctio cum exercitationem.</p>
+    </div> 
+  </section>
+
+  <section id="Portfolio">
+    <h1 class="headings">Gallery</h1>
+    <div class="gallery">
+      <img src="img_3.jpg" alt="">
+      <img src="img_3.jpg" alt="">
+      <img src="img_3.jpg" alt="">
+      <img src="img_3.jpg" alt="">
+      <img src="img_3.jpg" alt="">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1 class="headings">Reach Me Here</h1>
+    <form action="" class="form">
+      <input type="text" name="name" id="input" placeholder="Enter Your Name">
+      <input type="email" name="email" id="input" placeholder="Enter Your Email">
+      <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+      <input type="submit" value="Send" id="send">
+    </form>
+  </section>
 </body>
 </html>
